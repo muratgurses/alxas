@@ -1,2 +1,2 @@
-# alxas
+# Alxas Community Centre
 Alxas Community Centre
