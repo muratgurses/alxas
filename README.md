@@ -1,2 +1,2 @@
-# Alxas Community Centre
+# Alxas Community Centre Website
 Alxas Community Centre
