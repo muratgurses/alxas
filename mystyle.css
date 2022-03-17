@@ -1,0 +1,64 @@
+#myHeader{
+
+    background-color: #05595B;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#myFooter{
+
+    background-color: #05595B;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#myFooterLinks{
+
+    background-color: #05595B;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#mainMenu{
+
+    background-color: #B4CFB0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+#mainContent{
+
+    background-color: #789395;
+    color: white;
+    padding: 20px;
+}
+
+
+.city{
+
+      background-color: tomato;
+      color: white;
+      padding 50px;
+}
+
+
+.cityInformation{
+
+
+    text-align: justify;
+
+}
