@@ -46,10 +46,13 @@
 
   <h1>Contact</h1>
 
-  <p>Please fill in the form. We will get back to you soon.</p></br>
+  <p>Please fill in the form. We will get back to you soon. If you are not a member of our community centre, you can register now.</p></br>
 
   <form action="/action/contact.php">
 
+
+    <fieldset>
+      <legend>Contact Form</legend>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name"/></br></br>
 
@@ -60,14 +63,39 @@
     <input type="email" id="email" name="email"/></br></br>
 
     <label for="tel">Telephone: </label>
-    <input type="tel" id="telephone" name="tel"/></br></br>
+    <input type="tel" id="telephone" name="tel" pattern="[0-9]{11}"/></br></br>
+
+    <p>Are you a member? </p>
+
+
+    <input type="radio" id="member" name="member">Yes</input>
+
+
+    <input type="radio" id="member" name="member">No</input>
+
+  </br></br>
+
 
     <label for="date">Date: </label>
     <input type="date" id="date" name="date"/></br></br>
 
+    <label for="countries">Country: </label>
+    <select id="select" name="countries">
+      <option value="France">France</option>
+      <option value="France">Germany</option>
+      <option value="France">Netherlands</option>
+      <option value="Turkey">Turkey</option>
+      <option value="UK" selected="selected">United Kingdom</option>
+    </select>  </br></br>
+
+
+
+    <textarea name="textarea" rows="10" cols="40">Your message...</textarea></br></br>
+
     <input type="submit" name="Submit"/>
     <input type="reset" name="Reset"/>
 
+</fieldset>
   </form></br></br>
 
   <p>&#127969;  16 Address Lane, N42 1SX, London</p>
